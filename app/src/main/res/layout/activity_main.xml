@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="391dp"
+            android:layout_height="268dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/bergizi" />
+
+        <LinearLayout
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:orientation="horizontal">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:padding="14dp"
+                android:text="anggita ade putri"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                tools:ignore="Autofill,LabelFor,TextFields"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/no_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_hp"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:padding="14dp"
+                    android:text="@string/_088886858449"
+                    android:textColor="@android:color/white"
+                    android:textSize="14dp"
+                    tools:ignore="Autofill,LabelFor,TextFields"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_hp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="@android:color/black"
+                android:background="@color/yellow"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/register"
+                android:textColor="@android:color/black"
+                android:background="@color/yellow"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

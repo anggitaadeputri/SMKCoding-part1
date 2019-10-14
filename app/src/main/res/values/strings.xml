@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pawon Mobile</string>
+    <string name="image">image</string>
+    <string name="nama">Nama:</string>
+    <string name="no_hp">no_hp</string>
+    <string name="_088886858449">088886858449</string>
+    <string name="button2">Button2</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+</resources>
