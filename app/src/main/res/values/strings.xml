@@ -7,4 +7,6 @@
     <string name="button2">Button2</string>
     <string name="login">login</string>
     <string name="register">register</string>
+    <string name="home">home</string>
+    <string name="my_profile">my_profile</string>
 </resources>
